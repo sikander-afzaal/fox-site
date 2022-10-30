@@ -42,6 +42,7 @@
   }
   .missonSec {
     background-color: var(--color-danger);
+    overflow-x: hidden;
     .content {
       padding-top: 3.7rem;
       padding-bottom: 3.7rem;
@@ -81,6 +82,7 @@
     }
   }
   .roadMapSec {
+    overflow-x: hidden;
     background-color: var(--color-light);
     padding-top: 100px;
     .content {
@@ -179,6 +181,7 @@
     }
   }
   .teamSec {
+    overflow-x: hidden;
     background-color: var(--color-shad);
     .content {
       padding-top: 3.5rem;
@@ -206,6 +209,7 @@
     }
   }
   .faqSec {
+    overflow-x: hidden;
     background-color: var(--color-primary);
     .content {
       padding-top: 4rem;
