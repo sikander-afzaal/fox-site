@@ -27,6 +27,7 @@ p {
 }
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 @media screen and (max-width: 1024px) {
