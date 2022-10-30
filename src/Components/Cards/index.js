@@ -165,11 +165,11 @@ export const UtilityCardNew = () => {
               <p>{desc9}</p>
             </div>
             <div className={styles.lastDiv}>
-              <img src={icon10} alt="test" />
               <h3>Golden benefit</h3>
+              <img src={icon10} alt="test" />
               <p>
                 <span className={styles.unqieText}>
-                  Fraction ownership of real estate:
+                  Fraction ownership of real estate:{" "}
                 </span>
                 Unlocked after series 1 & 2 are sold out.
               </p>
