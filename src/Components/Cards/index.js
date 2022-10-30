@@ -17,6 +17,7 @@ import icon6 from "../../Assets/icons/staking.png";
 import icon7 from "../../Assets/icons/merchandise.png";
 import icon8 from "../../Assets/icons/bid.png";
 import icon9 from "../../Assets/icons/voting-box.png";
+import icon10 from "../../Assets/icons/home.png";
 
 export const NFTCard = ({ img, title, id, margin }) => {
   return (
@@ -164,6 +165,7 @@ export const UtilityCardNew = () => {
               <p>{desc9}</p>
             </div>
             <div className={styles.lastDiv}>
+              <img src={icon10} alt="test" />
               <h3>Golden benefit</h3>
               <p>
                 <span className={styles.unqieText}>
