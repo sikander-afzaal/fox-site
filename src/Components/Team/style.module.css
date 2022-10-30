@@ -1,0 +1,57 @@
+.content {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+@media screen and (max-width: 527px) {
+  .content {
+    width: auto;
+  }
+}
+.content .imageDiv {
+  height: 26.5rem;
+  width: 29rem;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  border-radius: 8px;
+}
+@media screen and (max-width: 527px) {
+  .content .imageDiv {
+    padding: 1.5rem;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    width: calc(100% - 20px);
+    margin: auto;
+  }
+}
+.content .imageDiv img {
+  width: 100%;
+  height: 100%;
+}
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  .content .imageDiv {
+    width: 20rem;
+    height: 20rem;
+  }
+}
+.content .contentDiv {
+  margin-top: 1.4rem;
+  text-align: center;
+}
+@media screen and (max-width: 527px) {
+  .content .contentDiv {
+    padding: 0px 1.5rem;
+  }
+}
+.content .contentDiv .title {
+  font-size: 2.4rem;
+  font-family: skranji;
+  color: var(--color-white);
+}
+.content .contentDiv .desc {
+  font-size: 2rem;
+}/*# sourceMappingURL=style.module.css.map */

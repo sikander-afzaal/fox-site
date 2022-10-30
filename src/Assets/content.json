@@ -1,0 +1,109 @@
+{
+  "home": {
+    "header": {
+      "title": "Welcome to the",
+      "title2": "Golden Kitsune Club",
+      "desc": "GKC is a community-based PFP project. A set of 10,000 Kitsune NFTs, which are one-of-a-kind digital collectibles that live on the Ethereum blockchain. Your Kitsune entitles you to exclusive perks."
+    },
+    "mission": {
+      "missionTitle": "Mission",
+      "missionDesc": "Our mission is to build a community-based club, where members can benefit from both virtual and physical utility. In addition, to contribute to the real world, we stand for raising awareness about social challenges in the world. There are numerous various global social issues such as racism, gender inequality, poverty, and many more. Our goal is to raise awareness about these social challenges, which are reflected in the various traits implemented in our Kitsune NFTs. Our goal is to donate 2.5% of the profit to a number of non-profit organizations that work to address these worldwide social challenges.",
+      "nftTitle": "GKC NFTs specifications",
+      "nftDesc": "Each Kitsune is one-of-a-kind, with over 150 distinct characteristics such as fur, headwear, attire and much more. Some Kitsunes are rarer than others; refer to the rarity chart for the complete list.",
+      "nftDesc2": "All our NFTs are stored as ERC-721 tokens on the Ethereum blockchain."
+    },
+    "utility": {
+      "utilityTitle": "Utility",
+      "utilityDesc": "Our main focus is to provide holders with exclusive benefits."
+    },
+    "utilityCard": {
+      "title1": "Membership card",
+      "title2": "Private discord channel",
+      "title3": "Sales royalties",
+      "title4": "Hold reward system",
+      "title5": "Airdrops",
+      "title6": "Staking pool",
+      "title7": "Merch store",
+      "title8": "Auction",
+      "title9": "Voting rights",
+      "desc1": "Access to events and parties that will be arranged in Europe.",
+      "desc2": "Access to a private discord channel.",
+      "desc3": "20% of the sales royalties on secondary market will be distributed among holders.",
+      "desc4": "The longer you hold a Kitsune NFT, the more your rewards will be.",
+      "desc5": "Holders are eligible for different NFT & token airdrops.",
+      "desc6": "Members will be able to stake their NFTs & GKC’s native token.",
+      "desc7": "Access to an exclusive merch store with limited-edition sweatshirts, tees, and more. Members will be able to customize their own NFT on clothing pieces.",
+      "desc8": "Access to a private auction where rare NFTs and collectibles will be put up for bids.",
+      "desc9": "Holders will have voting rights to decide the future of the project from 2023 onwards."
+    },
+    "roadMap": [
+      {
+        "title": "Phase 1",
+        "desc1": "Team building",
+        "desc2": "Website",
+        "desc3": "Generating 10,000 Baby Kitsunes",
+        "desc4": "Launch of Series 1: The Kitsunes",
+        "desc5": "Collab with non-profit organizations"
+      },
+      {
+        "title": "Phase 2",
+        "desc1": "The Membership card is introduced",
+        "desc2": "Launch of the Merch store",
+        "desc3": "Native ERC-20 token release & airdrop to holders",
+        "desc4": "Staking pools",
+        "desc5": "Hold reward system is introduced"
+      },
+
+      {
+        "title": "Phase 3",
+        "desc1": "Launch of Series 2: The Mutant Kitsunes",
+        "desc2": "First event or party date announcement",
+        "desc3": "Auction goes live on our website"
+      },
+      {
+        "desc1": "Holders will decide the roadmap for 2023, every holder will be able to propose their plan, the plan with the most votes will be implemented."
+      }
+    ],
+    "team": [
+      {
+        "title": "Solid",
+        "desc": "Founder",
+        "img": "solid.png"
+      },
+      {
+        "title": "Liquid",
+        "desc": "Co-founder & Artist",
+        "img": "liquid.png"
+      },
+      {
+        "title": "Ynlay",
+        "desc": "Developer",
+        "img": "ynlay.png"
+      }
+    ],
+    "teamTitle": "Team",
+    "faqTitle": "FAQ",
+    "faq": [
+      {
+        "id": "0",
+        "title": "How large is the collection? ",
+        "desc": "For the first collection, 10,000 Kitsunes will take off in the forest."
+      },
+      {
+        "id": "1",
+        "title": "What is the mint date and time? ",
+        "desc": "There is no set date and time yet. We estimate to launch by November. Please note that this is just an estimate and subject to change. Join our discord & follow us on twitter for the latest updates."
+      },
+      {
+        "id": "2",
+        "title": "What is the mint price? ",
+        "desc": "To be announced at a later stage."
+      },
+      {
+        "id": "3",
+        "title": "How do I get whitelisted?",
+        "desc": "Refer to the #Whitelist-info channel in our discord."
+      }
+    ]
+  }
+}

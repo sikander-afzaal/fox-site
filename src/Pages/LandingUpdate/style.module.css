@@ -1,0 +1,165 @@
+.home .bannerSec {
+  height: 900px;
+  background-image: url("../../Assets/images/banner.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+@media screen and (max-width: 1024px) {
+  .home .bannerSec {
+    height: calc(100vh - 100px);
+  }
+}
+@media screen and (max-width: 992px) {
+  .home .bannerSec {
+    height: 500px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .home .bannerSec {
+    height: 300px;
+  }
+}
+.home .header .content {
+  padding: 9.5rem 0;
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+@media screen and (max-width: 992px) {
+  .home .header .content {
+    width: 100%;
+  }
+}
+.home .header .content .title {
+  font-size: 7rem;
+  font-weight: 400;
+  line-height: 8rem;
+  font-family: skranji;
+}
+.home .header .borderImgBox {
+  background: linear-gradient(to bottom, #000, #ff6500);
+}
+.home .header .borderImgBox .bgImg {
+  width: 100%;
+}
+.home .missonSec {
+  background-color: var(--color-danger);
+}
+.home .missonSec .content {
+  padding-top: 3.7rem;
+  padding-bottom: 3.7rem;
+}
+.home .missonSec .content .title {
+  margin-top: 6rem;
+}
+.home .missonSec .content .util {
+  margin-top: 6rem;
+}
+.home .missonSec .NFTDemo {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0px;
+  flex-wrap: wrap;
+}
+.home .missonSec .NFTDemo .nftbox {
+  box-shadow: 0px 0px 10px 10px #ffb800;
+  margin: 40px 0px;
+  width: calc(25% - 15px);
+  border: 5px solid #fff;
+}
+@media screen and (max-width: 992px) {
+  .home .missonSec .NFTDemo .nftbox {
+    width: calc(50% - 15px);
+  }
+}
+@media screen and (max-width: 528px) {
+  .home .missonSec .NFTDemo .nftbox {
+    margin: 20px 0px;
+  }
+}
+.home .missonSec .NFTDemo .nftbox img {
+  width: -webkit-fill-available;
+}
+.home .missonSec .borderImgBox {
+  background: linear-gradient(to bottom, #ff6500, #fedac4);
+}
+.home .missonSec .borderImgBox .bgImg {
+  width: 100%;
+}
+.home .roadMapSec {
+  background-color: var(--color-light);
+  display: flex;
+}
+.home .roadMapSec .content {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+}
+.home .roadMapSec .content .title {
+  margin-bottom: 1rem;
+}
+.home .roadMapSec .content .subTitle {
+  font-size: 20px;
+  font-family: "skranji";
+  text-align: center;
+  color: rgba(0, 0, 0, 0.3960784314);
+  margin-bottom: 2rem;
+}
+.home .roadMapSec .content .subTitle2 {
+  font-size: 20px;
+  font-family: "Port Lligat Slab";
+  text-align: center;
+  color: #000000;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+.home .roadMapSec .content .map {
+  justify-content: center;
+}
+.home .roadMapSec .roadMapBg {
+  width: 100%;
+}
+.home .teamSec {
+  background-color: var(--color-shad);
+}
+.home .teamSec .content {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+.home .teamSec .content .teamRow {
+  justify-content: center;
+}
+.home .teamSec .content .teamRow .grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5rem 0 0;
+}
+.home .teamSec .roadMapBg {
+  width: 100%;
+}
+.home .teamSec .borderImgBox {
+  background: linear-gradient(to bottom, #2e112d, #ffb800);
+}
+.home .teamSec .borderImgBox .teamBg {
+  width: 100%;
+}
+.home .faqSec {
+  background-color: var(--color-primary);
+}
+.home .faqSec .content {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.home .faqSec .content .title {
+  color: var(--color-white);
+}
+.home .faqSec .content .accordion {
+  margin-top: 2rem;
+}
+.home .faqSec .borderImgBox {
+  background: linear-gradient(to bottom, #ffb800, #fff);
+}
+.home .faqSec .borderImgBox .faqBg {
+  width: 100%;
+}/*# sourceMappingURL=style.module.css.map */

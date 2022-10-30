@@ -1,0 +1,31 @@
+.parentUl {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.parentUl .title {
+  font-size: 5rem;
+  color: var(--color-dark);
+  font-family: skranji-bold;
+  text-transform: capitalize;
+  line-height: 6.8rem;
+}
+.parentUl .nestedUl {
+  list-style-type: none;
+  font-size: 2.4rem;
+  line-height: 4rem;
+  color: rgba(0, 0, 0, 0.6509803922);
+  margin: 0;
+  padding: 0;
+}
+.parentUl .nestedUl li::before {
+  padding-right: 6px;
+  content: "-";
+}
+.parentUl .vLine {
+  width: 4px;
+  height: 7.4rem;
+  background-color: #7aaf22;
+  margin: 3rem 0;
+}/*# sourceMappingURL=style.module.css.map */

@@ -1,0 +1,226 @@
+.home {
+  .bannerSec {
+    height: 900px;
+    // height: calc(100vh - 90px);
+    background-image: url("../../Assets/images/banner.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    @media screen and (max-width: 1024px) {
+      height: calc(100vh - 100px);
+    }
+    @media screen and (max-width: 992px) {
+      height: 500px;
+    }
+    @media screen and (max-width: 767px) {
+      height: 300px;
+    }
+  }
+  .header {
+    .content {
+      padding: 9.5rem 0;
+      width: 80%;
+      text-align: center;
+      margin: 0 auto;
+      @media screen and (max-width: 992px) {
+        width: 100%;
+      }
+      .title {
+        font-size: 7rem;
+        font-weight: 400;
+        line-height: 8rem;
+        font-family: skranji;
+      }
+    }
+    .borderImgBox {
+      background: linear-gradient(to bottom, #000, #ff6500);
+      .bgImg {
+        width: 100%;
+      }
+    }
+  }
+  .missonSec {
+    background-color: var(--color-danger);
+    .content {
+      padding-top: 3.7rem;
+      padding-bottom: 3.7rem;
+      .title {
+        margin-top: 6rem;
+      }
+      .util {
+        margin-top: 6rem;
+      }
+    }
+    .NFTDemo {
+      display: flex;
+      justify-content: space-between;
+      margin: 40px 0px;
+      flex-wrap: wrap;
+      .nftbox {
+        box-shadow: 0px 0px 10px 10px #ffb800;
+        margin: 40px 0px;
+        width: calc((100% / 4) - 15px);
+        border: 5px solid #fff;
+        @media screen and (max-width: 992px) {
+          width: calc((100% / 2) - 15px);
+        }
+        @media screen and (max-width: 528px) {
+          margin: 20px 0px;
+        }
+        img {
+          width: -webkit-fill-available;
+        }
+      }
+    }
+    .borderImgBox {
+      background: linear-gradient(to bottom, #ff6500, #fedac4);
+      .bgImg {
+        width: 100%;
+      }
+    }
+  }
+  .roadMapSec {
+    background-color: var(--color-light);
+    padding-top: 100px;
+    .content {
+      padding-top: 7.5rem;
+      padding-bottom: 7.5rem;
+      margin-top: 50px;
+
+      @media screen and (max-width: 550px) {
+        margin-top: 0px;
+      }
+      .title {
+        margin-bottom: 1rem;
+      }
+      .subTitle {
+        font-size: 20px;
+        font-family: "skranji";
+        text-align: center;
+        color: #00000065;
+        margin-bottom: 2rem;
+      }
+      .subTitle2 {
+        font-size: 20px;
+        font-family: "Port Lligat Slab";
+        text-align: center;
+        color: #000000;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+      }
+      .map {
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
+        width: 100%;
+        row-gap: 50px;
+        column-gap: 40px;
+        @media screen and (max-width: 600px) {
+          column-gap: 20px;
+          padding-left: 10px;
+          grid-template-columns: auto 1fr;
+        }
+        .line {
+          height: 100%;
+          grid-column: 2/3;
+          border-radius: 100vh;
+          grid-row: 1/5;
+          // background-color: var(--color-primary);
+          background-color: #7aaf22;
+          @media screen and (max-width: 600px) {
+            grid-column: 1/2;
+          }
+        }
+        & > div:nth-child(2) {
+          grid-column: 1/2;
+          grid-row: 1/2;
+          align-items: flex-end;
+          text-align: right;
+          @media screen and (max-width: 600px) {
+            grid-column: 2/3;
+            align-items: flex-start;
+            text-align: left;
+          }
+        }
+        & > div:nth-child(3) {
+          grid-column: 3/4;
+          grid-row: 2/3;
+          @media screen and (max-width: 600px) {
+            grid-column: 2/3;
+            align-items: flex-start;
+            text-align: left;
+          }
+        }
+        & > div:nth-child(4) {
+          grid-column: 1/2;
+          grid-row: 3/4;
+          align-items: flex-end;
+          text-align: right;
+          @media screen and (max-width: 600px) {
+            grid-column: 2/3;
+            align-items: flex-start;
+            text-align: left;
+          }
+        }
+        & > div:nth-child(5) {
+          grid-column: 3/4;
+          grid-row: 4/5;
+          @media screen and (max-width: 600px) {
+            grid-column: 2/3;
+            align-items: flex-start;
+            text-align: left;
+          }
+        }
+      }
+    }
+    .roadMapBg {
+      width: 100%;
+    }
+  }
+  .teamSec {
+    background-color: var(--color-shad);
+    .content {
+      padding-top: 3.5rem;
+      padding-bottom: 3.5rem;
+      .teamRow {
+        justify-content: center;
+        // padding: 4rem 0;
+        .grid {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin: 5rem 0 0;
+          // padding: 0 1rem;
+        }
+      }
+    }
+    .roadMapBg {
+      width: 100%;
+    }
+    .borderImgBox {
+      background: linear-gradient(to bottom, #2e112d, #ffb800);
+      .teamBg {
+        width: 100%;
+      }
+    }
+  }
+  .faqSec {
+    background-color: var(--color-primary);
+    .content {
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+      .title {
+        color: var(--color-white);
+      }
+      .accordion {
+        margin-top: 2rem;
+      }
+    }
+    .borderImgBox {
+      background: linear-gradient(to bottom, #ffb800, #fff);
+      .faqBg {
+        width: 100%;
+      }
+    }
+  }
+}
