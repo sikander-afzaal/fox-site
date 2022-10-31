@@ -121,47 +121,47 @@ export const UtilityCardNew = () => {
           <div className={styles.body}>
             <div className={styles.utilCard}>
               <img src={icon1} alt="test" />
-              <h2>{title1}:</h2>
+              <h2>{title1}</h2>
               <p>{desc1}</p>
             </div>
             <div className={styles.utilCard}>
               <img src={icon2} alt="test" />
-              <h2>{title2}:</h2>
+              <h2>{title2}</h2>
               <p>{desc2}</p>
             </div>
             <div className={styles.utilCard}>
               <img src={icon3} alt="test" />
-              <h2>{title3}:</h2>
+              <h2>{title3}</h2>
               <p>{desc3}</p>
             </div>
             <div className={styles.utilCard}>
               <img src={icon4} alt="test" />
-              <h2>{title4}:</h2>
+              <h2>{title4}</h2>
               <p>{desc4}</p>
             </div>
             <div className={styles.utilCard}>
               <img src={icon5} alt="test" />
-              <h2>{title5}:</h2>
+              <h2>{title5}</h2>
               <p>{desc5}</p>
             </div>
             <div className={styles.utilCard}>
               <img src={icon6} alt="test" />
-              <h2>{title6}:</h2>
+              <h2>{title6}</h2>
               <p>{desc6}</p>
             </div>
             <div className={styles.utilCard}>
               <img src={icon7} alt="test" />
-              <h2>{title7}:</h2>
+              <h2>{title7}</h2>
               <p>{desc7}</p>
             </div>
             <div className={styles.utilCard}>
               <img src={icon8} alt="test" />
-              <h2>{title8}:</h2>
+              <h2>{title8}</h2>
               <p>{desc8}</p>
             </div>
             <div className={styles.utilCard}>
               <img src={icon9} alt="test" />
-              <h2>{title9}:</h2>
+              <h2>{title9}</h2>
               <p>{desc9}</p>
             </div>
             <div className={styles.lastDiv}>
@@ -169,7 +169,7 @@ export const UtilityCardNew = () => {
               <img src={icon10} alt="test" />
               <p>
                 <span className={styles.unqieText}>
-                  Fraction ownership of real estate:{" "}
+                  Fraction ownership of real estate <br />
                 </span>
                 Unlocked after series 1 & 2 are sold out.
               </p>

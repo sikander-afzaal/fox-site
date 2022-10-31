@@ -1,11 +1,16 @@
 .parentUl {
-  text-align: center;
   display: flex;
   flex-direction: column;
   max-width: 100%;
   width: 100%;
-  align-items: flex-start;
-  text-align: left;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #7aaf22;
+  padding: 20px 30px;
+  position: relative;
+  border-radius: 50px;
+  height: 100%;
 
   .title {
     font-size: 5rem;
@@ -27,9 +32,16 @@
     }
   }
   .vLine {
-    width: 4px;
-    height: 7.4rem;
-    background-color: #7aaf22;
+    width: 40px;
+    height: 4px;
+    left: 100%;
+    background-color: brown;
     margin: 3rem 0;
+    position: absolute;
+    @media screen and (max-width: 770px) {
+      right: 100%;
+      left: initial;
+      width: 20px;
+    }
   }
 }

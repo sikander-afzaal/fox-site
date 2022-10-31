@@ -25,7 +25,7 @@ const RoadMap = ({
       xl={8}
       className={styles.parentUl}
     >
-      {/* <div className={styles.vLine} /> */}
+      <span className={styles.vLine} />
       <p className={styles.title}>{title}</p>
       <ul className={styles.nestedUl}>
         {desc1 && <li>{desc1}</li>}
