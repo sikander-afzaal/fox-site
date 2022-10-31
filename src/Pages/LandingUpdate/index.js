@@ -181,6 +181,8 @@ const Home = () => {
         </div>
       </div>
       <div id="roadmap" className={styles.roadMapSec}>
+        <div className={styles.leftCurve}></div>
+        <div className={styles.rightCurve}></div>
         <p
           data-aos="fade-left"
           data-aos-duration="1500"
@@ -191,7 +193,7 @@ const Home = () => {
         <Container className={styles.content}>
           {/* <p   data-aos="fade-right"  data-aos-duration="1500" className={styles.subTitle}>"Please note that the roadmap is subject to change"</p> */}
           <Row className={styles.map}>
-            <div className={styles.line}></div>
+            {/* <div className={styles.line}></div> */}
             {roadMap.map((item, index) => (
               <RoadMap {...item} indexValue={index} />
             ))}
