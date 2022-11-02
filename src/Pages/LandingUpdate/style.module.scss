@@ -87,42 +87,14 @@
     padding-top: 100px;
     position: relative;
     overflow-y: hidden;
-    height: 1200px;
-    @media screen and (max-width: 1054px) {
-      height: auto;
-    }
+    isolation: isolate;
+    height: auto;
+    min-height: initial;
 
     & > p {
       font-size: 60px;
     }
-    .leftCurve {
-      background: #aec00c;
-      width: 100%;
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      height: 1200px;
-      display: block;
-      z-index: 20;
-      clip-path: ellipse(84% 70% at 0% 89%);
-      @media screen and (max-width: 1054px) {
-        display: none;
-      }
-    }
-    .rightCurve {
-      z-index: 21;
-      background: #8da513;
-      width: 100%;
-      display: block;
-      clip-path: ellipse(100% 68% at 92% 90%);
-      position: absolute;
-      bottom: 0;
-      right: 0;
-      height: 900px;
-      @media screen and (max-width: 1054px) {
-        display: none;
-      }
-    }
+
     .content {
       padding-top: 7.5rem;
       padding-bottom: 7.5rem;
@@ -156,50 +128,17 @@
     }
     .map {
       width: 100%;
-      position: absolute;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      position: static;
+      row-gap: 150px;
+      place-items: center;
       height: 100%;
-      left: 50%;
-      transform: translateX(-50%);
-      top: 0;
-      bottom: 0;
-      right: 0;
       max-width: 1400px;
-      z-index: 24;
-      @media screen and (max-width: 1054px) {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        position: relative;
-        row-gap: 50px;
-        place-items: center;
-        & > div {
-          left: initial !important;
-          top: initial !important;
-          bottom: initial !important;
-          right: initial !important;
-        }
+      & > div:first-of-type span {
+        display: none;
       }
-      & > div:nth-of-type(1) {
-        left: 10%;
-        top: 30%;
-      }
-      & > div:nth-of-type(2) {
-        left: initial;
-        right: 5%;
-        top: 60%;
-        z-index: -1;
-      }
-      & > div:nth-of-type(3) {
-        left: 10%;
-        top: initial;
-        bottom: 5%;
-      }
-      // & > div:nth-of-type(4) {
-      //   left: initial;
-      //   right: 0%;
-      //   top: 44%;
-      //   z-index: -1;
-      // }
     }
     .roadMapBg {
       width: 100%;

@@ -181,8 +181,6 @@ const Home = () => {
         </div>
       </div>
       <div id="roadmap" className={styles.roadMapSec}>
-        <div className={styles.leftCurve}></div>
-        <div className={styles.rightCurve}></div>
         <p
           data-aos="fade-left"
           data-aos-duration="1500"

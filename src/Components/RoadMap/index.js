@@ -19,7 +19,7 @@ const RoadMap = ({
   return (
     <div className={styles.roadItem}>
       <div className={styles.textPart}>
-        {/* <span className={styles.vLine} /> */}
+        <span className={styles.vLine} />
         <div className={styles.titlePart}>
           <img src={sign} alt="" className={styles.sign} />
           <p className={styles.title}>{title}</p>
