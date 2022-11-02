@@ -1,3 +1,6 @@
+.home {
+  overflow-x: hidden;
+}
 .home .bannerSec {
   height: 900px;
   background-image: url("../../Assets/images/banner.svg");
@@ -45,6 +48,7 @@
 }
 .home .missonSec {
   background-color: var(--color-danger);
+  overflow-x: hidden;
 }
 .home .missonSec .content {
   padding-top: 3.7rem;
@@ -88,38 +92,69 @@
   width: 100%;
 }
 .home .roadMapSec {
+  overflow-x: hidden;
   background-color: var(--color-light);
-  display: flex;
+  padding-top: 100px;
+  position: relative;
+  overflow-y: hidden;
+  isolation: isolate;
+  height: auto;
+  min-height: initial;
+}
+.home .roadMapSec > p {
+  font-size: 60px;
 }
 .home .roadMapSec .content {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
+  margin-top: 50px;
+  height: 100%;
+  width: 100%;
+}
+@media screen and (max-width: 1053px) {
+  .home .roadMapSec .content {
+    margin-top: 0px;
+    padding-top: 4rem;
+  }
 }
 .home .roadMapSec .content .title {
+  font-size: 60px;
   margin-bottom: 1rem;
 }
 .home .roadMapSec .content .subTitle {
-  font-size: 20px;
+  font-size: 40px;
   font-family: "skranji";
   text-align: center;
   color: rgba(0, 0, 0, 0.3960784314);
   margin-bottom: 2rem;
 }
 .home .roadMapSec .content .subTitle2 {
-  font-size: 20px;
+  font-size: 40px;
   font-family: "Port Lligat Slab";
   text-align: center;
   color: #000000;
   margin-top: 4rem;
   margin-bottom: 2rem;
 }
-.home .roadMapSec .content .map {
-  justify-content: center;
+.home .roadMapSec .map {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  position: static;
+  row-gap: 150px;
+  place-items: center;
+  height: 100%;
+  max-width: 1400px;
+}
+.home .roadMapSec .map > div:first-of-type span {
+  display: none;
 }
 .home .roadMapSec .roadMapBg {
   width: 100%;
 }
 .home .teamSec {
+  overflow-x: hidden;
   background-color: var(--color-shad);
 }
 .home .teamSec .content {
@@ -145,6 +180,7 @@
   width: 100%;
 }
 .home .faqSec {
+  overflow-x: hidden;
   background-color: var(--color-primary);
 }
 .home .faqSec .content {

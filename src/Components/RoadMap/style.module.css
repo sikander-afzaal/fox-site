@@ -1,31 +1,84 @@
-.parentUl {
-  text-align: center;
+.roadItem {
+  width: 450px;
+  position: relative;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.roadItem img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.textPart {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  max-width: 350px;
   align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0px 0px;
 }
-.parentUl .title {
-  font-size: 5rem;
-  color: var(--color-dark);
+@media screen and (max-width: 1553px) {
+  .textPart {
+    max-width: 360px;
+  }
+}
+.textPart .titlePart {
+  position: relative;
+}
+.textPart .titlePart .title {
+  font-size: 4rem;
   font-family: skranji-bold;
   text-transform: capitalize;
-  line-height: 6.8rem;
+  line-height: 1;
+  margin-bottom: 20px;
+  color: black;
+  height: 50px;
+  line-height: 1;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
 }
-.parentUl .nestedUl {
+@media screen and (max-width: 465px) {
+  .textPart .titlePart .title {
+    top: 50%;
+  }
+}
+.textPart .nestedUl {
   list-style-type: none;
   font-size: 2.4rem;
-  line-height: 4rem;
-  color: rgba(0, 0, 0, 0.6509803922);
+  line-height: 1.4;
+  color: black;
   margin: 0;
   padding: 0;
 }
-.parentUl .nestedUl li::before {
-  padding-right: 6px;
-  content: "-";
+@media screen and (max-width: 1053px) {
+  .textPart .nestedUl {
+    font-size: 2.3rem;
+    color: black;
+    margin-top: 10px;
+  }
 }
-.parentUl .vLine {
-  width: 4px;
-  height: 7.4rem;
+.textPart .nestedUl li::before {
+  padding-right: 0px;
+  content: "-";
+  color: black;
+}
+.textPart .vLine {
+  width: 3px;
+  height: 100px;
+  left: 50%;
+  bottom: 100%;
+  transform: translateX(-50%);
   background-color: #7aaf22;
   margin: 3rem 0;
+  position: absolute;
 }/*# sourceMappingURL=style.module.css.map */
