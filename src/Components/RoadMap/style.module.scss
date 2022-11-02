@@ -27,7 +27,7 @@
   width: 100%;
   max-width: 350px;
   @media screen and (max-width: 1553px) {
-    max-width: 300px;
+    max-width: 360px;
   }
   align-items: center;
   justify-content: center;
@@ -62,9 +62,7 @@
     line-height: 1.4;
     color: black;
     margin: 0;
-    @media screen and (max-width: 1553px) {
-      font-size: 1.5rem;
-    }
+
     @media screen and (max-width: 1053px) {
       font-size: 2rem;
       color: black;
