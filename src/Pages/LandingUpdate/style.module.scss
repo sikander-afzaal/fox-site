@@ -127,7 +127,7 @@
       padding-top: 7.5rem;
       padding-bottom: 7.5rem;
       margin-top: 50px;
-
+      height: 100%;
       width: 100%;
 
       @media screen and (max-width: 1053px) {
@@ -160,6 +160,7 @@
       height: 100%;
       left: 0;
       top: 0;
+      bottom: 0;
       right: 0;
       z-index: 24;
       @media screen and (max-width: 1054px) {
@@ -179,23 +180,17 @@
       & > div:nth-of-type(1) {
         left: 10%;
         top: 33%;
-        @media screen and (max-width: 1554px) {
-          top: 20%;
-        }
       }
       & > div:nth-of-type(2) {
         left: initial;
         right: 10%;
-        top: 50%;
+        top: 60%;
         z-index: -1;
       }
       & > div:nth-of-type(3) {
         left: 25%;
-        top: 73.5%;
-        @media screen and (max-width: 1554px) {
-          top: initial;
-          bottom: -2%;
-        }
+        top: initial;
+        bottom: 5%;
       }
       // & > div:nth-of-type(4) {
       //   left: initial;
