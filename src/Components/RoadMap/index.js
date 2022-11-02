@@ -17,7 +17,12 @@ const RoadMap = ({
   indexValue = (indexValue + 1) * 2 + "00";
 
   return (
-    <div className={styles.roadItem}>
+    <div
+      data-aos="fade-up"
+      data-aos-delay={indexValue}
+      data-aos-duration="1500"
+      className={styles.roadItem}
+    >
       <div className={styles.textPart}>
         <span className={styles.vLine} />
         <div className={styles.titlePart}>
