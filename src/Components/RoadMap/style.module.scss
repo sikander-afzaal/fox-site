@@ -1,5 +1,4 @@
 .roadItem {
-  width: 450px;
   position: relative;
   width: 100%;
   align-items: center;
@@ -18,10 +17,6 @@
   flex-direction: column;
 
   width: 100%;
-  max-width: 350px;
-  @media screen and (max-width: 1553px) {
-    max-width: 360px;
-  }
   align-items: center;
   justify-content: center;
   text-align: center;
