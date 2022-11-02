@@ -1,7 +1,7 @@
 import React from "react";
 import { Col } from "react-bootstrap";
 import styles from "./style.module.scss";
-import sign from "../../Assets/images/sign.png";
+import sign from "../../Assets/images/board.png";
 
 const RoadMap = ({
   desc1,

@@ -18,7 +18,7 @@
 }
 .textPart {
   position: absolute;
-  top: 40%;
+  top: 50%;
   transform: translate(-50%, -50%);
   left: 50%;
   z-index: 40;
@@ -36,7 +36,7 @@
   padding: 0px 0px;
 
   .title {
-    font-size: 6rem;
+    font-size: 4rem;
     // color: var(--color-dark);
     font-family: skranji-bold;
     text-transform: capitalize;
