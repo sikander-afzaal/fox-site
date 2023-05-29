@@ -6,6 +6,7 @@ import logo from "../../Assets/icons/logo.svg";
 import twitter from "../../Assets/icons/twitter.svg";
 import discord from "../../Assets/icons/discord.svg";
 import insta from "../../Assets/icons/insta.svg";
+
 import { Col, Container, Row, Accordion } from "react-bootstrap";
 import { NFTCard, UtilityCard } from "../../Components/Cards";
 import nft from "../../Assets/images/nft.svg";
@@ -91,7 +92,8 @@ const roadMapData = [
   {
     title: "THE START",
     desc1: "Introducing the Membership Card",
-    desc2: "Member exclusive Merch store goes live, introducing customized and limited-edition hoodies, tees, and more.",
+    desc2:
+      "Member exclusive Merch store goes live, introducing customized and limited-edition hoodies, tees, and more.",
     desc3: "Native ERC-20 token release & airdrop to holders",
     desc4: "Launch of Series 2: The Mutant Kitsunes",
   },
@@ -106,7 +108,7 @@ const roadMapData = [
 const Landing = () => {
   return (
     <div className={styles.landing}>
-        <div className={styles.tlShadow} />
+      <div className={styles.tlShadow} />
       <AppNavBar />
       <Container>
         <div className={styles.bannerSec} />
@@ -114,7 +116,7 @@ const Landing = () => {
       <div className={styles.header}>
         <Container>
           <div className={styles.content}>
-            <p className={styles.title}>   
+            <p className={styles.title}>
               Welcome to the
               <br />
               <span>
@@ -122,7 +124,10 @@ const Landing = () => {
               </span>
             </p>
             <p className="desc">
-            GKC is a community-based PFP project. A set of 10,000 Kitsune NFTs, which are one-of-a-kind digital collectibles that live on the Ethereum blockchain. Your Kitsune entitles you to exclusive perks.{" "}
+              GKC is a community-based PFP project. A set of 10,000 Kitsune
+              NFTs, which are one-of-a-kind digital collectibles that live on
+              the Ethereum blockchain. Your Kitsune entitles you to exclusive
+              perks.{" "}
             </p>
             <div className={styles.icons}>
               <img src={twitter} alt="twitter" />
@@ -131,7 +136,7 @@ const Landing = () => {
             </div>
           </div>
         </Container>
-        <div className={styles.shadow}/>
+        <div className={styles.shadow} />
       </div>
       <Container>
         <div className={styles.missionSec}>

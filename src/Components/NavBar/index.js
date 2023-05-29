@@ -50,7 +50,7 @@ const AppNavBar = () => {
 
   useEffect(() => {
     checkWalletIsConnected();
-  }, [])
+  }, []);
 
   return (
     <div className="container app-header">
@@ -60,17 +60,17 @@ const AppNavBar = () => {
         </div>
         <div className="social-icons">
           {/* <a href="https://discord.gg/jmuuch5vQs"> */}
-          <a href="#">
+          <a href=" https://discord.gg/jmuuch5vQs" target="blank">
             {/* <img src={twitter} height="30px" style={{ marginTop: 6 }} /> */}
-            <span class="icon-discordY"></span>
+            <span className="icon-discordY"></span>
           </a>
           <a href="https://twitter.com/GoldenKitsuneC">
             {/* <img src={discord} height="30px" style={{ marginTop: 6 }} /> */}
-            <span class="icon-twitterY"></span>
+            <span className="icon-twitterY"></span>
           </a>
           <a href="https://www.instagram.com/goldenkitsuneclub">
             {/* <img src={insta} style={{ marginTop: 3 }} /> */}
-            <span class="icon-instaY"></span>
+            <span className="icon-instaY"></span>
           </a>
         </div>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -89,15 +89,15 @@ const AppNavBar = () => {
               {/* <a href="https://discord.gg/jmuuch5vQs"> */}
               <a href="#">
                 {/* <img src={twitter} height="30px" style={{ marginTop: 6 }} /> */}
-                <span class="icon-discordY"></span>
+                <span className="icon-discordY"></span>
               </a>
               <a href="https://twitter.com/GoldenKitsuneC">
                 {/* <img src={discord} height="30px" style={{ marginTop: 6 }} /> */}
-                <span class="icon-twitterY"></span>
+                <span className="icon-twitterY"></span>
               </a>
               <a href="https://www.instagram.com/goldenkitsuneclub">
                 {/* <img src={insta} style={{ marginTop: 3 }} /> */}
-                <span class="icon-instaY"></span>
+                <span className="icon-instaY"></span>
               </a>
             </div>
           </Nav>
@@ -118,14 +118,10 @@ const AppNavBar = () => {
             id="collasible-nav-dropdown"
           >
             <NavDropdown.Item href="#mission">Misson</NavDropdown.Item>
-            <NavDropdown.Item href="#utility">
-            Utility
-            </NavDropdown.Item>
+            <NavDropdown.Item href="#utility">Utility</NavDropdown.Item>
             <NavDropdown.Item href="#roadmap">Roadmap</NavDropdown.Item>
             <NavDropdown.Item href="#team">Team</NavDropdown.Item>
-            <NavDropdown.Item href="#faq">
-            FAQ
-            </NavDropdown.Item>
+            <NavDropdown.Item href="#faq">FAQ</NavDropdown.Item>
           </NavDropdown>
         </Nav>
       </Navbar>

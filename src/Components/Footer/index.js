@@ -21,21 +21,20 @@ const AppFooter = ({ item }) => {
           <Col xs={4}>
             <div className={styles.socialIcons}>
               {/* <a href="https://discord.gg/jmuuch5vQs"> */}
-              <a href="#">
+              <a href=" https://discord.gg/jmuuch5vQs" target="blank">
                 {/* <img src={twitter} height="30px" style={{ marginTop: 6 }} /> */}
-                <span class="icon-discordY"></span>
+                <span className="icon-discordY"></span>
               </a>
               <a href="https://twitter.com/GoldenKitsuneC">
                 {/* <img src={discord} height="30px" style={{ marginTop: 6 }} /> */}
-                <span class="icon-twitterY"></span>
+                <span className="icon-twitterY"></span>
               </a>
               <a href="https://www.instagram.com/goldenkitsuneclub">
                 {/* <img src={insta} style={{ marginTop: 3 }} /> */}
-                <span class="icon-instaY"></span>
+                <span className="icon-instaY"></span>
               </a>
             </div>
           </Col>
-         
         </Row>
       </Container>
     </div>

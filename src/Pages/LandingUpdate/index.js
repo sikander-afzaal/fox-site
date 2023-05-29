@@ -8,6 +8,10 @@ import orgBg from "../../Assets/images/orgBg.svg";
 import whtBg from "../../Assets/images/whtBg.svg";
 import yelBg from "../../Assets/images/yelBg.svg";
 import demoNFT from "../../Assets/images/dummyNFT.png";
+import nft1 from "../../Assets/images/nft1.png";
+import nft2 from "../../Assets/images/nft2.png";
+import nft3 from "../../Assets/images/nft3.png";
+import nft4 from "../../Assets/images/nft4.png";
 import { Col, Container, Row, Accordion } from "react-bootstrap";
 import { NFTCard, UtilityCard, UtilityCardNew } from "../../Components/Cards";
 import nft from "../../Assets/images/nft.svg";
@@ -72,15 +76,15 @@ const Home = () => {
               {/* <a href="https://discord.gg/jmuuch5vQs"> */}
               <a href="#">
                 {/* <img src={twitter} height="30px" style={{ marginTop: 6 }} /> */}
-                <span class="icon-discordY"></span>
+                <span className="icon-discordY"></span>
               </a>
               <a href="https://twitter.com/GoldenKitsuneC">
                 {/* <img src={discord} height="30px" style={{ marginTop: 6 }} /> */}
-                <span class="icon-twitterY"></span>
+                <span className="icon-twitterY"></span>
               </a>
               <a href="https://www.instagram.com/goldenkitsuneclub">
                 {/* <img src={insta} style={{ marginTop: 3 }} /> */}
-                <span class="icon-instaY"></span>
+                <span className="icon-instaY"></span>
               </a>
             </div>
             <p className={styles.title}>
@@ -123,7 +127,7 @@ const Home = () => {
               data-aos-duration="1500"
               className={styles.nftbox}
             >
-              <img src={demoNFT} />
+              <img src={nft1} />
               {/* <p></p> */}
             </div>
             <div
@@ -132,7 +136,7 @@ const Home = () => {
               data-aos-duration="1500"
               className={styles.nftbox}
             >
-              <img src={demoNFT} />
+              <img src={nft2} />
             </div>
             <div
               data-aos="fade-up"
@@ -140,7 +144,7 @@ const Home = () => {
               data-aos-duration="1500"
               className={styles.nftbox}
             >
-              <img src={demoNFT} />
+              <img src={nft3} />
             </div>
             <div
               data-aos="fade-up"
@@ -148,7 +152,7 @@ const Home = () => {
               data-aos-duration="1500"
               className={styles.nftbox}
             >
-              <img src={demoNFT} />
+              <img src={nft4} />
             </div>
           </div>
 
@@ -166,9 +170,9 @@ const Home = () => {
           {/* <UtilityCard className={styles.util} /> */}
           <div id="utility">
             <UtilityCardNew />
-            <p className="smalltext">
-              Please note that these benefits are not guaranteed & subject to
-              change.
+            <p style={{ fontSize: "18px" }} className="smalltext">
+              Disclaimer: These benefits are not guaranteed and may be subject
+              to change without prior notice
             </p>
           </div>
           {/* <div className={styles.utilSec}>
