@@ -172,7 +172,7 @@ const Home = () => {
             <UtilityCardNew />
             <p style={{ fontSize: "18px" }} className="smalltext">
               Disclaimer: These benefits are not guaranteed and may be subject
-              to change without prior notice
+              to change without prior notice.
             </p>
           </div>
           {/* <div className={styles.utilSec}>
